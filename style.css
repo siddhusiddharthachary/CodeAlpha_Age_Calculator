@@ -1,0 +1,60 @@
+* {
+    background-color: #000;
+    font-family: system-ui;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    /* margin-top: 50px; */
+    color: aliceblue;
+}
+.agecalci{
+    margin-top: 150px;
+    border: solid white 2.5px;
+    /* margin: 25px 25px 25px 25px ; */
+    padding-bottom: 50px;
+}
+.dob{
+    margin-top: 50px;
+}
+.dob label{
+    font-size: 17px;
+    
+}
+.dob input{
+    margin-left: 15px;
+    color: aliceblue;
+}
+
+input[type="number"] {
+    font-size: 17px;
+    width: 120px;
+    height: 25px;
+    color: aliceblue;
+    border-color: aliceblue;
+    gap: 50px;
+}
+input::placeholder{
+    color: aliceblue;
+}
+
+button{
+    font-size: 17px;
+    width: 150px;
+    height: 50px;
+    border-color: aliceblue;
+    color: aliceblue;
+    margin-top: 70px;
+}
+
+button:hover{
+    transition-timing-function: cubic-bezier(0.5, 0, 0.1, 1);
+    background: rgb(193, 17, 25);
+}
+
+#result{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 600;
+}
